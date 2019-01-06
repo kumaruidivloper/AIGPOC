@@ -1,0 +1,32 @@
+  <article>
+      <div class="container">
+          <div class="row">
+              <div class="form_bg">
+                  <form>
+                    <h4 class="text-center">{{'demo.login' | translate }}</h4>
+                      <div class="form-group">
+                        
+                          <input type="email" class="form-control" placeholder="{{'demo.enteremail' | translate }}">
+                      </div>
+                      <div class="form-group">
+                          <input type="password" class="form-control" placeholder="{{'demo.password' | translate }}">
+                      </div>
+                      <div class="form-group">
+                          <label for="lang">{{'demo.language' | translate }}</label>
+                          <select class="form-control langBox" id="lang" name="bbb" [(ngModel)]="sessionLang" (change)="useLanguage($event.target.value)">
+                            <option *ngFor="let lang of langArr" value="{{lang}}">
+                                {{lang}}
+                            </option>
+                          </select>
+                        </div>
+                      <p><a href="#" routerLinkActive="active" 
+                        routerLink="/forgotPassword" class="text-primary forgot-password">{{'demo.forgot' | translate }}</a></p>
+                         <div class="align-center">
+                      <button type="submit" class="btn btn-primary">{{'demo.loginbtn' | translate }}</button>
+                          </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </article>
+

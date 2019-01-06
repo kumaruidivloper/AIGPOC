@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~font-awesome/css/font-awesome.css";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {  
+    background:#fff;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+  }
