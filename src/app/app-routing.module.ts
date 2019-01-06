@@ -5,13 +5,14 @@ import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'login',
     component: LoginComponent
   },
   {
     path: 'forgotPassword',
     component: ForgotPasswordComponent
-  }
+  },
+  { path: '**', redirectTo: 'login' }
 ];
 
 @NgModule({
