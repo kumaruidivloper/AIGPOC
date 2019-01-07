@@ -18,7 +18,11 @@ export class LoginComponent implements OnInit {
 
   constructor(
     private translate: TranslateService) { 
-    translate.setDefaultLang('en');
+    if (sessionStorage.getItem('langCode') !== null) {
+      translate.setDefaultLang('en');
+    } else {
+      JSON.stringify(sessionStorage.setItem('langCode', 'en'));
+    }
   }
 
   ngOnInit() {
@@ -30,7 +34,6 @@ export class LoginComponent implements OnInit {
     this.translate.use(language);
     this.lang = language;
     let sessionstore = JSON.stringify(sessionStorage.setItem('langCode', this.lang));
-    
 }
 
 }
