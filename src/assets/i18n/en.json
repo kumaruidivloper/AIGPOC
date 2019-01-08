@@ -15,6 +15,7 @@
 	"demo.pleasenote": "Please Note:",
 	"demo.pleasenoteintro": "When you log in with your temporary password, you will be prompted to change it.",
 	"demo.help": "Help:",
-	"demo.helpnote": "If you experience any problems and require our assistance please contact your local AIG office:"
-	
+	"demo.helpnote": "If you experience any problems and require our assistance please contact your local AIG office:",
+	"demo.emailReqalert": "Email is required",
+	"demo.emailnotvalid": "Email must be a valid email address"
 }
