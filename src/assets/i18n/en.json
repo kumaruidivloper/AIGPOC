@@ -7,5 +7,14 @@
 	"demo.loginbtn": "Login",
 	"demo.logotitle": "American International Group",
 	"demo.copyright": "Copyright © 2019 American International Group, Inc. All rights reserved.",
-	"demo.title": "AIGPOC"
+	"demo.title": "AIGPOC",
+	"demo.emailreq": "Please enter your email address and select the reset your password button.",
+	"demo.emailreqlabel": "Email address:",
+	"demo.resetbtn": "Reset Password",
+	"demo.tempepass": "A temporary password will be emailed to you shortly.",
+	"demo.pleasenote": "Please Note:",
+	"demo.pleasenoteintro": "When you log in with your temporary password, you will be prompted to change it.",
+	"demo.help": "Help:",
+	"demo.helpnote": "If you experience any problems and require our assistance please contact your local AIG office:"
+	
 }

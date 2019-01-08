@@ -7,5 +7,13 @@
 	"demo.loginbtn": "Log masuk",
 	"demo.logotitle": "American International Group",
 	"demo.copyright": "Hak cipta © 2019 American International Group, Inc. Hak cipta terpelihara",
-	"demo.title": "AIGPOC"
+	"demo.title": "AIGPOC",
+	"demo.emailreq": "Sila masukkan alamat e-mel anda dan pilih butang semula kata laluan anda.",
+	"demo.emailreqlabel": "Alamat emel:",
+	"demo.resetbtn": "Menetapkan semula kata laluan",
+	"demo.tempepass": "Kata laluan sementara akan dihantar melalui e-mel kepada anda tidak lama lagi.",
+	"demo.pleasenote": "Sila ambil perhatian:",
+	"demo.pleasenoteintro": "Apabila anda log masuk dengan kata laluan sementara anda, anda akan digesa untuk mengubahnya.",
+	"demo.help": "Bantuan:",
+	"demo.helpnote": "Jika anda mengalami sebarang masalah dan memerlukan bantuan kami sila hubungi pejabat AIG tempatan anda:"
 }

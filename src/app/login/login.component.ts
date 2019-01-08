@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {TranslateService} from '@ngx-translate/core';
+import { TranslateService } from '@ngx-translate/core';
 import {_} from '@biesbjerg/ngx-translate-extract/dist/utils/utils';
 
 @Component({
@@ -16,8 +16,7 @@ export class LoginComponent implements OnInit {
 
   fromCode = _('demo.text-in-code');
 
-  constructor(
-    private translate: TranslateService) { 
+  constructor(private translate: TranslateService) { 
     if (sessionStorage.getItem('langCode') !== null) {
       translate.setDefaultLang('en');
     } else {

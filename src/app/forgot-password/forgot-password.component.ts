@@ -1,4 +1,7 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+import {_} from '@biesbjerg/ngx-translate-extract/dist/utils/utils';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-forgot-password',
@@ -7,11 +10,36 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ForgotPasswordComponent implements OnInit {
 
-  @Input() public loginData: string;
+  public lang: any;
+  public sessionLang: string;
+  public emailForm: FormGroup;
+  public submitted = false;
+  fromCode = _('demo.text-in-code');
 
-  constructor() { }
+  constructor(
+    private translate: TranslateService,
+    private formBuilder: FormBuilder
+    ) {
+   }
 
   ngOnInit() {
+    this.emailForm = this.formBuilder.group({
+      email: ['', [Validators.required, Validators.email]],
+    });
+    this.sessionLang = sessionStorage.getItem('langCode');
+    this.translate.setDefaultLang(this.sessionLang);
+
   }
+
+  get f() { return this.emailForm.controls; }
+
+  onSubmit() {
+    this.submitted = true;
+    if (this.emailForm.invalid) {
+        return;
+    }
+
+    alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.emailForm.value))
+}
 
 }
