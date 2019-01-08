@@ -26,7 +26,7 @@ export class ForgotPasswordComponent implements OnInit {
     this.emailForm = this.formBuilder.group({
       email: ['', [Validators.required, Validators.email]],
     });
-    this.sessionLang = sessionStorage.getItem('langCode');
+    this.sessionLang = localStorage.getItem('langCode');
     this.translate.setDefaultLang(this.sessionLang);
 
   }

@@ -17,22 +17,22 @@ export class LoginComponent implements OnInit {
   fromCode = _('demo.text-in-code');
 
   constructor(private translate: TranslateService) { 
-    if (sessionStorage.getItem('langCode') !== null) {
+    if (localStorage.getItem('langCode') !== null) {
       translate.setDefaultLang('en');
     } else {
-      JSON.stringify(sessionStorage.setItem('langCode', 'th'));
+      JSON.stringify(localStorage.setItem('langCode', 'th'));
     }
   }
 
   ngOnInit() {
-    this.sessionLang = sessionStorage.getItem('langCode');
+    this.sessionLang = localStorage.getItem('langCode');
     this.translate.setDefaultLang(this.sessionLang);
   }
 
   useLanguage(language: string) {
     this.translate.use(language);
     this.lang = language;
-    let sessionstore = JSON.stringify(sessionStorage.setItem('langCode', this.lang));
+    let sessionstore = JSON.stringify(localStorage.setItem('langCode', this.lang));
 }
 
 }
