@@ -20,7 +20,7 @@ export class LoginComponent implements OnInit {
     if (sessionStorage.getItem('langCode') !== null) {
       translate.setDefaultLang('en');
     } else {
-      JSON.stringify(sessionStorage.setItem('langCode', 'en'));
+      JSON.stringify(sessionStorage.setItem('langCode', 'th'));
     }
   }
 
