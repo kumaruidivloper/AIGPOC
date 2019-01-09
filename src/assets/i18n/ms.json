@@ -17,5 +17,8 @@
 	"demo.help": "Bantuan:",
 	"demo.helpnote": "Jika anda mengalami sebarang masalah dan memerlukan bantuan kami sila hubungi pejabat AIG tempatan anda:",
 	"demo.emailReqalert": "E-mel diperlukan",
-	"demo.emailnotvalid": "E-mel mestilah alamat e-mel yang sah"
+	"demo.emailnotvalid": "E-mel mestilah alamat e-mel yang sah",
+	"demo.country": "Malaysia - 603-21180043",
+	"demo.countryemail": "mailto:AIGMYHelpdesk@aig.com",
+	"demo.countryemaillabel": "AIGMYHelpdesk@aig.com"
 }

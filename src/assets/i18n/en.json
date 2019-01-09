@@ -17,5 +17,8 @@
 	"demo.help": "Help:",
 	"demo.helpnote": "If you experience any problems and require our assistance please contact your local AIG office:",
 	"demo.emailReqalert": "Email is required",
-	"demo.emailnotvalid": "Email must be a valid email address"
+	"demo.emailnotvalid": "Email must be a valid email address",
+	"demo.country": "Singapore",
+	"demo.countryemail": "mailto:Aagencycare@aig.com",
+	"demo.countryemaillabel": "agencycare@aig.com"
 }

@@ -17,5 +17,8 @@
 	"demo.help": "ช่วยด้วย:",
 	"demo.helpnote": "หากคุณพบปัญหาใด ๆ และต้องการความช่วยเหลือของเราโปรดติดต่อสำนักงาน AIG ในพื้นที่ของคุณ:",
 	"demo.emailReqalert": "ต้องระบุอีเมล",
-	"demo.emailnotvalid": "อีเมลต้องเป็นที่อยู่อีเมลที่ถูกต้อง"
+	"demo.emailnotvalid": "อีเมลต้องเป็นที่อยู่อีเมลที่ถูกต้อง",
+	"demo.country": "Thailand",
+	"demo.countryemail": "mailto:Aagencycare@aig.com",
+	"demo.countryemaillabel": "agencycare@aig.com"
 }
