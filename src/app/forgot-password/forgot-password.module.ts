@@ -1,11 +1,10 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AlertModule } from 'ngx-bootstrap';
 import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ForgotPasswordRoutingModule } from './forgot-password-routing.module'
 import { ForgotPasswordComponent } from './forgot-password.component'
-
-import { AppRoutingModule } from '../app-routing.module';
 
 // import ngx-translate and the http loader
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
@@ -18,10 +17,10 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     ForgotPasswordComponent
   ],
   imports: [
-    BrowserModule,
     FormsModule,
-    AppRoutingModule,
     ReactiveFormsModule,
+    ForgotPasswordRoutingModule,
+    CommonModule,
     AlertModule.forRoot(),
 	 // configure the imports
         HttpClientModule,

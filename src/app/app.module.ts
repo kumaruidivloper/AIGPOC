@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { AlertModule } from 'ngx-bootstrap';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,8 +15,6 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './login/login.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-// import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
-import { ForgotPasswordModule } from './forgot-password/forgot-password.module'
 
 @NgModule({
   declarations: [
@@ -28,7 +27,7 @@ import { ForgotPasswordModule } from './forgot-password/forgot-password.module'
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    ForgotPasswordModule,
+    CommonModule,
     ReactiveFormsModule,
     AlertModule.forRoot(),
 	 // configure the imports
