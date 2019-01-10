@@ -14,6 +14,7 @@ export class ForgotPasswordComponent implements OnInit {
   public sessionLang: string;
   public emailForm: FormGroup;
   public submitted = false;
+  public forgetPassForm = true;
   fromCode = _('demo.text-in-code');
 
   constructor(
@@ -39,7 +40,8 @@ export class ForgotPasswordComponent implements OnInit {
         return;
     }
 
-    alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.emailForm.value))
+    alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.emailForm.value));
+    this.forgetPassForm = false;
 }
 
 }

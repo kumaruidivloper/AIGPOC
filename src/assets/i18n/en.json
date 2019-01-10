@@ -20,5 +20,6 @@
 	"demo.emailnotvalid": "Email must be a valid email address",
 	"demo.country": "Singapore",
 	"demo.countryemail": "mailto:Aagencycare@aig.com",
-	"demo.countryemaillabel": "agencycare@aig.com"
+	"demo.countryemaillabel": "agencycare@aig.com",
+	"demo.emailsucsess": "If this is a registered email, a reset link will be sent via email. Please use the link to reset your password."
 }

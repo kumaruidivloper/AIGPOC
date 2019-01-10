@@ -20,5 +20,6 @@
 	"demo.emailnotvalid": "E-mel mestilah alamat e-mel yang sah",
 	"demo.country": "Malaysia - 603-21180043",
 	"demo.countryemail": "mailto:AIGMYHelpdesk@aig.com",
-	"demo.countryemaillabel": "AIGMYHelpdesk@aig.com"
+	"demo.countryemaillabel": "AIGMYHelpdesk@aig.com",
+	"demo.emailsucsess": "Jika ini adalah e-mel berdaftar, pautan reset akan dihantar melalui e-mel. Sila gunakan pautan untuk menetapkan semula kata laluan anda."
 }

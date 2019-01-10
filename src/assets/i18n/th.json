@@ -20,5 +20,6 @@
 	"demo.emailnotvalid": "อีเมลต้องเป็นที่อยู่อีเมลที่ถูกต้อง",
 	"demo.country": "Thailand",
 	"demo.countryemail": "mailto:Aagencycare@aig.com",
-	"demo.countryemaillabel": "agencycare@aig.com"
+	"demo.countryemaillabel": "agencycare@aig.com",
+	"demo.emailsucsess": "หากนี่คืออีเมลที่ลงทะเบียนลิงค์รีเซ็ตจะถูกส่งทางอีเมล กรุณาใช้ลิงค์เพื่อรีเซ็ตรหัสผ่านของคุณ"
 }
