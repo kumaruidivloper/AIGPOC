@@ -3,8 +3,11 @@ import { AlertModule } from 'ngx-bootstrap';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
-import { ForgotPasswordRoutingModule } from './forgot-password-routing.module'
-import { ForgotPasswordComponent } from './forgot-password.component'
+import { ForgotPasswordRoutingModule } from './forgot-password-routing.module';
+import { ForgotPasswordComponent } from './forgot-password.component';
+import { DefaultComponent } from './default/default.component';
+import { MalaysiaComponent } from './malaysia/malaysia.component';
+import { ThailandComponent } from './thailand/thailand.component';
 
 // import ngx-translate and the http loader
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
@@ -14,7 +17,10 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
-    ForgotPasswordComponent
+    ForgotPasswordComponent,
+    DefaultComponent,
+    MalaysiaComponent,
+    ThailandComponent
   ],
   imports: [
     FormsModule,
